@@ -1,0 +1,24 @@
+{
+  "name": "currency-exchange-rate",
+  "version": "1.0.0",
+  "description": "Completely free NPM library to get realtime Currency Exchange Rate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prithwirajbose/currency-exchange-rate.git"
+  },
+  "keywords": ["currency", "exchange", "rate", "currency exchange rate", "currency conversion", "current exchange", "currency conversion rate", "currency converter"],
+  "author": "Prithwiraj Bose <sribasu@gmail.com> (https://sribasu.com)",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/prithwirajbose/currency-exchange-rate/issues"
+  },
+  "homepage": "https://github.com/prithwirajbose/currency-exchange-rate#readme",
+  "funding": "https://www.buymeacoffee.com/sribasu",
+  "dependencies": {
+    "lodash": "latest"
+  }
+}

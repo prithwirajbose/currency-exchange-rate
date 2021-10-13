@@ -10,7 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/prithwirajbose/currency-exchange-rate.git"
   },
-  "keywords": ["currency", "exchange", "rate", "currency exchange rate", "currency conversion", "current exchange", "currency conversion rate", "currency converter"],
+  "keywords": [
+    "currency",
+    "exchange",
+    "rate",
+    "currency exchange rate",
+    "currency conversion",
+    "current exchange",
+    "currency conversion rate",
+    "currency converter"
+  ],
   "author": "Prithwiraj Bose <sribasu@gmail.com> (https://sribasu.com)",
   "license": "BSD",
   "bugs": {
@@ -19,6 +28,7 @@
   "homepage": "https://github.com/prithwirajbose/currency-exchange-rate#readme",
   "funding": "https://www.buymeacoffee.com/sribasu",
   "dependencies": {
-    "lodash": "latest"
+    "dom-parser": "latest",
+    "axios": "latest"
   }
 }

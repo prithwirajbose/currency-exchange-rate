@@ -2,7 +2,7 @@
   "name": "currency-exchange-rate",
   "version": "1.0.0",
   "description": "Completely free NPM library to get realtime Currency Exchange Rate",
-  "main": "index.js",
+  "main": "currency-exchange-rate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +21,7 @@
     "currency converter"
   ],
   "author": "Prithwiraj Bose <sribasu@gmail.com> (https://sribasu.com)",
-  "license": "BSD",
+  "license": "BSD-2-Clause-FreeBSD",
   "bugs": {
     "url": "https://github.com/prithwirajbose/currency-exchange-rate/issues"
   },

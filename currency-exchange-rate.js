@@ -57,12 +57,4 @@ var getCurrencyExchangeRate = function (config, callbackFunction) {
     });
 };
 
-/*Usage Example
-getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: "INR" }).then(function (value) {
-    console.log(value);
-}).catch((e) => {
-    console.log(e);
-});
-*/
-
 module.exports.getCurrencyExchangeRate = getCurrencyExchangeRate;

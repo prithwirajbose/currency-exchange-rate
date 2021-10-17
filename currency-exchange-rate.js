@@ -17,6 +17,8 @@ var getCurrencyExchangeRatePromiseCallback = function (config, callbackFunction,
             }
             axiosConfig.headers = ((typeof (axiosConfig.headers) == 'object') ? axiosConfig.headers : {});
             axiosConfig.headers = Object.assign(axiosConfig.headers, defaultHeaders);
+            axiosConfig.url = googleFinanceUrl;
+            axiosConfig.method = "get";
 
             axios.get(googleFinanceUrl, axiosConfig).then(function (response) {
                 if (response && response.status === 200) {

@@ -1,6 +1,6 @@
 {
   "name": "currency-exchange-rate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Completely free NPM library to get realtime Currency Exchange Rate",
   "main": "currency-exchange-rate.js",
   "scripts": {

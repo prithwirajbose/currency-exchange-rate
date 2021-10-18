@@ -7,8 +7,8 @@ currencyExchangeRate.getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: 
 });
 
 //Using a callback function.
-currencyExchangeRate.getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: "INR" }, function (exchangeRateValue, e) {
-    if (e) {
+currencyExchangeRate.getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: "INR" }, function (exchangeRateValue, error) {
+    if (error) {
         console.error(error);
     }
     else {

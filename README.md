@@ -11,18 +11,18 @@ If you are using the library behind a coporate proxy please refer axios request 
 ```js
 var currencyExchangeRate = require("currency-exchange-rate");
 //Using a Promise.
-currencyExchangeRate.getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: "INR" }).then(function(exchangeRateValue) {
+currencyExchangeRate.getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: "INR" }).then(function (exchangeRateValue) {
     console.log(exchangeRateValue);
 }).catch((error) => {
     console.log(error);
 });
 
 //Using a callback function.
-currencyExchangeRate.getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: "INR" }, function(exchangeRateValue, error){
-    if(e){
+currencyExchangeRate.getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: "INR" }, function (exchangeRateValue, error) {
+    if (error) {
         console.error(error);
     }
-    else{
+    else {
         console.log(exchangeRateValue);
     }
 });

@@ -1,33 +1,33 @@
 {
-  "name": "currency-exchange-rate",
-  "version": "1.0.9",
-  "description": "Completely free NPM library to get realtime Currency Exchange Rate",
-  "main": "currency-exchange-rate.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prithwirajbose/currency-exchange-rate.git"
-  },
-  "keywords": [
-    "currency",
-    "exchange",
-    "rate",
-    "currency exchange rate",
-    "currency conversion",
-    "current exchange",
-    "currency conversion rate",
-    "currency converter"
-  ],
-  "author": "Prithwiraj Bose <sribasu@gmail.com> (https://sribasu.com)",
-  "license": "BSD-2-Clause-FreeBSD",
-  "bugs": {
-    "url": "https://github.com/prithwirajbose/currency-exchange-rate/issues"
-  },
-  "homepage": "https://github.com/prithwirajbose/currency-exchange-rate#readme",
-  "funding": "https://www.buymeacoffee.com/sribasu",
-  "dependencies": {
-    "axios": "latest"
-  }
+    "name": "currency-exchange-rate",
+    "version": "1.0.10",
+    "description": "Completely free NPM library to get realtime Currency Exchange Rate",
+    "main": "currency-exchange-rate.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/prithwirajbose/currency-exchange-rate.git"
+    },
+    "keywords": [
+        "currency",
+        "exchange",
+        "rate",
+        "currency exchange rate",
+        "currency conversion",
+        "current exchange",
+        "currency conversion rate",
+        "currency converter"
+    ],
+    "author": "Prithwiraj Bose <sribasu@gmail.com> (https://sribasu.com)",
+    "license": "BSD-2-Clause-FreeBSD",
+    "bugs": {
+        "url": "https://github.com/prithwirajbose/currency-exchange-rate/issues"
+    },
+    "homepage": "https://github.com/prithwirajbose/currency-exchange-rate#readme",
+    "funding": "https://prithwirajbose.github.io/lodash-extra/#donate",
+    "dependencies": {
+        "axios": "latest"
+    }
 }

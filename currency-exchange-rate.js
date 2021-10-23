@@ -3,7 +3,6 @@ const axios = require('axios');
 var getCurrencyExchangeRatePromiseCallback = function (config, callbackFunction, resolve, reject) {
     try {
         if (config && typeof (config.fromCurrency) == 'string' && typeof (config.toCurrency) == 'string') {
-            var parser = new DomParser();
 
             var yahooFinanceUrl = "https://query1.finance.yahoo.com/v8/finance/chart/" + config.fromCurrency.trim().toUpperCase() + config.toCurrency.trim().toUpperCase() + "=X?region=US&lang=en-US&includePrePost=false&interval=2m&useYfid=true&range=1d&corsDomain=finance.yahoo.com&.tsrc=finance";
             var axiosConfig = config;

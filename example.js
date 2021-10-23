@@ -1,4 +1,4 @@
-var currencyExchangeRate = require("currency-exchange-rate");
+var currencyExchangeRate = require("./currency-exchange-rate.js");
 //Using a Promise.
 currencyExchangeRate.getCurrencyExchangeRate({ fromCurrency: "USD", toCurrency: "INR" }).then(function (exchangeRateValue) {
     console.log(exchangeRateValue);

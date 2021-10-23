@@ -1,5 +1,5 @@
 # currency-exchange-rate
-NPM library to get realtime Currency Exchange Rate from Google Finance Website. This library uses axios under the hood to make HTTP Call to Google Finance. 
+NPM library to get realtime Currency Exchange Rate from Yahoo Finance Website. This library uses axios under the hood to make HTTP Call to Yahoo Finance. 
 
 ## Parameters
 `fromCurrency` and `toCurrency` are two mandatory properties for `config` parameter of `getCurrencyExchangeRate(config, callbackFunction(exchangeRateValue, error))` function. The currency symbols are [ISO 4217 Currency Codes](https://en.wikipedia.org/wiki/ISO_4217). You must pass valid values for these 2 config properties, otherwise the library function will retun error.

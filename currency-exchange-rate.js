@@ -1,5 +1,4 @@
-const axios = require('axios'),
-    DomParser = require('dom-parser');
+const axios = require('axios');
 
 var getCurrencyExchangeRatePromiseCallback = function (config, callbackFunction, resolve, reject) {
     try {
